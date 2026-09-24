@@ -1,0 +1,92 @@
+[
+  {
+    "id": "whiteboard",
+    "title": "Collaborative Whiteboard",
+    "kicker": "Real-time collaboration",
+    "description": "A collaborative canvas with drawing tools, board sharing, role-based access, throttled autosave, and cloud-backed storage.",
+    "technologies": ["React", "TypeScript", "Node.js", "Express", "MongoDB", "AWS S3", "Canvas API"],
+    "image": "/assets/images/website_snapshots/Whiteboard.png",
+    "github": "https://github.com/RexTitanium/whiteboard",
+    "demo": "https://whiteboard-2lo3.onrender.com/",
+    "featured": true,
+    "accent": "violet"
+  },
+  {
+    "id": "ignition",
+    "title": "Ignition",
+    "kicker": "Learning platform",
+    "description": "A learning management system with a dashboard and calendar experience designed around assignments and deadlines.",
+    "technologies": ["React", "MongoDB", "Express", "Node.js", "JavaScript"],
+    "image": "/assets/images/website_snapshots/Ignition.png",
+    "github": "https://github.com/RexTitanium/ignition-frontend",
+    "demo": "https://ignition-frontend.vercel.app/dashboard",
+    "featured": true,
+    "accent": "orange"
+  },
+  {
+    "id": "croatian-bert",
+    "title": "Croatian Advertisements Classification",
+    "kicker": "Applied ML",
+    "description": "Hierarchical text classification for Croatian advertisements using BERT, reaching 91% Tier-2 accuracy.",
+    "technologies": ["Python", "PyTorch", "Pandas", "BERT"],
+    "github": "https://github.com/RexTitanium",
+    "featured": true,
+    "accent": "cyan"
+  },
+  {
+    "id": "transformer",
+    "title": "Transformer — Language Model",
+    "kicker": "Deep learning from first principles",
+    "description": "A custom GPT-style language model exploring multi-head self-attention and training optimizations.",
+    "technologies": ["Python", "PyTorch", "TensorFlow", "Scikit-learn"],
+    "github": "https://github.com/RexTitanium",
+    "featured": true,
+    "accent": "green"
+  },
+  {
+    "id": "surveillance",
+    "title": "Smart Surveillance System",
+    "kicker": "Computer vision",
+    "description": "A computer-vision surveillance system designed to detect violent activity with a deep-learning model.",
+    "technologies": ["Python", "TensorFlow", "OpenCV"],
+    "image": "/assets/images/website_snapshots/Surveillance System.png",
+    "github": "https://github.com/RexTitanium/Smart-CCTV-with-Violence-Detection",
+    "featured": true,
+    "accent": "red"
+  },
+  {
+    "id": "titanium-arts",
+    "title": "Titanium Arts",
+    "kicker": "Creative web",
+    "description": "A visual site built to showcase digital artwork.",
+    "technologies": ["React", "Firebase", "CSS"],
+    "image": "/assets/images/website_snapshots/Titanium Arts.png",
+    "github": "https://github.com/RexTitanium/Titanium-Arts",
+    "demo": "https://titaniumarts.web.app/",
+    "featured": false,
+    "accent": "blue"
+  },
+  {
+    "id": "netflix-clone",
+    "title": "Netflix Clone",
+    "kicker": "Frontend experiment",
+    "description": "A streaming-style interface using movie data and embedded YouTube playback.",
+    "technologies": ["React", "JavaScript", "CSS"],
+    "image": "/assets/images/website_snapshots/Netflix Clone.png",
+    "github": "https://github.com/RexTitanium/Netflix-Clone",
+    "demo": "https://netflix-clone-a169a.web.app/",
+    "featured": false,
+    "accent": "pink"
+  },
+  {
+    "id": "2048",
+    "title": "2048",
+    "kicker": "Systems fundamentals",
+    "description": "A Python implementation of 2048 with custom game logic and an interactive desktop UI.",
+    "technologies": ["Python", "Tkinter"],
+    "image": "/assets/images/website_snapshots/2048.png",
+    "github": "https://github.com/RexTitanium/2048.git",
+    "featured": false,
+    "accent": "yellow"
+  }
+]
