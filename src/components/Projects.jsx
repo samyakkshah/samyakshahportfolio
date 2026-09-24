@@ -1,4 +1,3 @@
-import { motion } from 'framer-motion';
 import projects from '../config/projects.json';
 import { UI } from '../config/constants';
 import SectionHeading from './SectionHeading';
