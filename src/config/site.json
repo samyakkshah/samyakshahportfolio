@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "name": "Samyak Shah",
+    "eyebrow": "Software Engineer @ Amazon",
+    "headline": "I build software that makes complex systems feel simple.",
+    "description": "Software engineer working across production systems, AI, and product engineering. Curious about what happens underneath the abstraction.",
+    "location": "Seattle, WA",
+    "status": "Open to interesting conversations"
+  },
+  "links": {
+    "github": "https://github.com/RexTitanium",
+    "linkedin": "https://www.linkedin.com/in/samyakkshah/",
+    "email": "s4samyak@gmail.com",
+    "resume": "/assets/pdf/resume.pdf"
+  },
+  "stats": [
+    { "value": "Amazon", "label": "Software Engineering" },
+    { "value": "AI / ML", "label": "Systems + Products" },
+    { "value": "MS CS", "label": "Indiana University" }
+  ]
+}
