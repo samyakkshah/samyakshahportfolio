@@ -10,6 +10,7 @@ export default function Hero() {
     <section id="hero" className="hero section-shell">
       <div className="hero-grid" />
       <div className="hero-glow" />
+
       <motion.div className="hero-copy" initial="hidden" animate="visible" variants={{ hidden: {}, visible: { transition: { staggerChildren: 0.1, delayChildren: 0.15 } } }}>
         <motion.div className="eyebrow" variants={fadeUp}><span className="eyebrow-line" />{siteConfig.identity.eyebrow}</motion.div>
         <motion.h1 variants={fadeUp}>{siteConfig.identity.headline}<span className="hero-cursor" aria-hidden="true">_</span></motion.h1>
@@ -19,13 +20,21 @@ export default function Hero() {
           <a className="button button-ghost" href={siteConfig.links.resume} target={EXTERNAL.target} rel={EXTERNAL.rel}>Resume <ArrowUpRight /></a>
         </motion.div>
         <motion.div className="hero-meta" variants={fadeUp}>
-          <span>{siteConfig.identity.location}</span><i /> <span>{siteConfig.identity.status}</span>
+          <span>{siteConfig.identity.location}</span><i /><span>{siteConfig.identity.status}</span>
         </motion.div>
       </motion.div>
 
-      <motion.div className="hero-orbit" aria-hidden="true" initial={{ opacity: 0, scale: 0.7 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 1.2 }}>
-        <div className="orbit orbit-one" /><div className="orbit orbit-two" /><div className="orbit-core">S</div>
-        <span className="orbit-label label-one">AI</span><span className="orbit-label label-two">SYSTEMS</span><span className="orbit-label label-three">PRODUCT</span>
+      <motion.div className="hero-identity" aria-label="Portrait of Samyak Shah" initial={{ opacity: 0, scale: 0.88, x: 30 }} animate={{ opacity: 1, scale: 1, x: 0 }} transition={{ duration: 1, delay: 0.25 }}>
+        <div className="identity-ring identity-ring-one" />
+        <div className="identity-ring identity-ring-two" />
+        <div className="identity-frame">
+          <img src="/Samyak_transparent_bw.png" alt="Samyak Shah" />
+        </div>
+        <span className="identity-label identity-label-top">ENGINEER / 01</span>
+        <span className="identity-label identity-label-right">AI + SYSTEMS</span>
+        <span className="identity-label identity-label-bottom">SEATTLE / WA</span>
+        <span className="identity-cross cross-one" />
+        <span className="identity-cross cross-two" />
       </motion.div>
 
       <div className="hero-bottom">
