@@ -1,0 +1,8 @@
+[
+  { "id": "hero", "type": "hero", "enabled": true, "label": "Home" },
+  { "id": "work", "type": "projects", "enabled": true, "label": "Work" },
+  { "id": "systems", "type": "system-map", "enabled": true, "label": "How I Build" },
+  { "id": "experience", "type": "experience", "enabled": true, "label": "Experience" },
+  { "id": "about", "type": "about", "enabled": true, "label": "About" },
+  { "id": "contact", "type": "contact", "enabled": true, "label": "Contact" }
+]
