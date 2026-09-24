@@ -1,8 +1,8 @@
 import { render, screen } from '@testing-library/react';
-import App from './App';
+import Hero from './components/Hero';
 
-test('renders the portfolio identity', () => {
-  render(<App />);
-  expect(screen.getByText(/Software Engineer @ Amazon/i)).toBeInTheDocument();
-  expect(screen.getByRole('heading', { level: 1 })).toBeInTheDocument();
+test('renders the portfolio hero', () => {
+  render(<Hero />);
+  expect(screen.getByRole('heading', { level: 1 })).toHaveTextContent(/software engineer/i);
+  expect(screen.getByText(/Seattle, WA/i)).toBeInTheDocument();
 });
