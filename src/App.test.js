@@ -1,8 +1,8 @@
 import { render, screen } from '@testing-library/react';
-import App from './App';
+import Hero from './components/Hero';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+test('renders the portfolio hero', () => {
+  render(<Hero />);
+  expect(screen.getByRole('heading', { level: 1 })).toHaveTextContent(/I build software/i);
+  expect(screen.getByText(/Seattle, WA/i)).toBeInTheDocument();
 });

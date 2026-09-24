@@ -1,0 +1,48 @@
+[
+  {
+    "company": "Amazon",
+    "role": "Software Development Engineer",
+    "location": "Seattle, WA",
+    "period": "2025 — Present",
+    "current": true,
+    "summary": "Building and operating production software at scale as an SDE.",
+    "technologies": ["AWS", "Java", "Python", "Distributed Systems"],
+    "highlights": []
+  },
+  {
+    "company": "Soopra.ai",
+    "role": "Software Engineer — AI",
+    "location": "San Francisco, CA",
+    "period": "2024 — 2025",
+    "current": false,
+    "summary": "Worked across AI products and full-stack systems for an early-stage startup.",
+    "technologies": ["React", "Flask", "Firebase", "GCP", "AI"],
+    "highlights": [
+      "Built an AI chat widget for websites with lightweight integration.",
+      "Worked across product, frontend, backend, and AI workflows."
+    ]
+  },
+  {
+    "company": "Soopra.ai",
+    "role": "Software Developer Intern",
+    "location": "San Francisco, CA",
+    "period": "2024",
+    "current": false,
+    "summary": "Built product features across AI and web applications.",
+    "technologies": ["React", "Flask", "Firebase"],
+    "highlights": []
+  },
+  {
+    "company": "Continuum",
+    "role": "Software Developer Intern",
+    "location": "Mumbai, India",
+    "period": "2021",
+    "current": false,
+    "summary": "Built automation features for scripting workflows.",
+    "technologies": ["Angular", "Java"],
+    "highlights": [
+      "Built pre-script and post-script automation features.",
+      "Implemented customizable cutoff controls for long-running workflows."
+    ]
+  }
+]
