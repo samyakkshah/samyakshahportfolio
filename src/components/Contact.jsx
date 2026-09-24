@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { siteConfig, sectionConfig } from '../content/config';
+import { siteConfig } from '../content/config';
 import { EXTERNAL } from '../config/constants';
 
 export default function Contact() {
